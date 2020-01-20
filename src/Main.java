@@ -27,7 +27,6 @@ public class Main
 					"specified using '--midi-port PORT'");
 			System.exit(1);
 		}
-		System.out.println(serverPort + " " + midiPort);
 		Server server = new Server(serverPort, midiPort);
 	}
 	
